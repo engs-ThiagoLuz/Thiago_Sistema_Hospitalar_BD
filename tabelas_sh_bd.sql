@@ -1,9 +1,9 @@
 
-DROP SCHEMA IF EXISTS Thiago_SitemaHospitalar_BD CASCADE;
+DROP SCHEMA IF EXISTS Thiago_SistemaHospitalar_BD CASCADE;
 
-CREATE SCHEMA Thiago_SitemaHospitalar_BD;
+CREATE SCHEMA Thiago_SistemaHospitalar_BD;
 
-SET SEARCH_PATH TO Thiago_SitemaHospitalar_BD;
+SET SEARCH_PATH TO Thiago_SistemaHospitalar_BD;
 
 DROP TABLE IF EXISTS prescricao_itens CASCADE;
 DROP TABLE IF EXISTS prescricoes CASCADE;
